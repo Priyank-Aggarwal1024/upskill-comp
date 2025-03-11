@@ -1,5 +1,4 @@
 import "../styles/CommonSection.css";
-import dash2 from "../assets/dash-2.webp";
 function TaskBased() {
   return (
     <>
@@ -14,7 +13,14 @@ function TaskBased() {
             </div>
           </div>
           <div className="usm-section-image">
-            <img src={dash2} alt="Dash 2" />
+            <iframe
+              src="https://www.youtube.com/embed/tmFfRvn6CyQ?si=lbFgu4X6SJa6TNJV"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>

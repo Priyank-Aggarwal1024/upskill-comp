@@ -103,16 +103,14 @@
   align-items: center;
   box-shadow: 0px 6.379px 28.692px 0px rgba(255, 255, 255, 0.05);
   position: relative;
-}
-.usm-hr-top > img {
+  aspect-ratio: 324/182;
   width: 100%;
-  aspect-ratio: 910.612/606.012;
+  padding: 0px;
+}
+.usm-hr-top > iframe {
+  width: 100%;
   border-radius: 26.274px;
-  /* background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ), */
+  aspect-ratio: 324/182;
 }
 .usm-hr-top-button {
   position: absolute;

@@ -52,14 +52,16 @@
 }
 .usm-section-image {
   max-width: 500px;
-  aspect-ratio: 500/351;
+  aspect-ratio: 16/9;
   position: relative;
   border-radius: 22.581px;
   width: 100%;
+  border-radius: 22.581px;
+  border: 6.22px solid rgba(255, 255, 255, 0.25);
 }
-.usm-section-image > img {
+.usm-section-image > iframe {
   max-width: 500px;
-  aspect-ratio: 500/351;
+  aspect-ratio: 16/9;
   position: relative;
   border-radius: 22.581px;
   width: 100%;
@@ -93,7 +95,7 @@
     justify-content: center;
     align-items: center;
   }
-  .usm-section-image > img {
+  .usm-section-image > iframe {
     max-width: unset;
     border-radius: 30px;
   }
@@ -105,7 +107,10 @@
   .usm-section {
     padding: 44px 20px;
   }
-  .usm-section-image > img {
+  .usm-section-image {
+    border: 3.22px solid rgba(255, 255, 255, 0.25);
+  }
+  .usm-section-image > iframe {
     border-radius: 20px;
   }
   .usm-section-cont-head {

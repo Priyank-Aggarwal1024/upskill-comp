@@ -1,6 +1,4 @@
 import "../styles/Hero.css";
-import dash from "../assets//dash.webp";
-import play from "../assets/play.svg";
 import nodejs from "../assets/nodejs.svg";
 import java from "../assets/java.svg";
 import react from "../assets/react.svg";
@@ -53,28 +51,16 @@ function Hero() {
         </div>
         <div className="usm-hero-right">
           <div className="usm-hr-top">
-            <img src={dash} alt="Dashboard" />
-            <div className="usm-hr-top-button">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="136"
-                height="36"
-                viewBox="0 0 136 36"
-                fill="none"
-                className="usm-hero-graybutton-stroke"
-              >
-                <path
-                  d="M0.875 0.855469C0.875 19.4088 15.9155 34.4493 34.4688 34.4493H135.25"
-                  stroke="#4C4C4C"
-                  strokeWidth="1.29207"
-                  strokeLinecap="round"
-                />
-              </svg>
-              <div className="usm-hr-top-button-play">
-                <img src={play} alt="Play" />
-              </div>
-              <span>Watch Campus Preview</span>
-            </div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ekUNJ33IEQw?si=eEwfK8gZqES34kY8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
           <div className="usm-hr-bottom">
             <div className="usm-hr-bottom-icons">
