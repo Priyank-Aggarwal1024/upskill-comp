@@ -37,7 +37,7 @@
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
-  line-height: 169%; /* 64.22px */
+  line-height: 140%; /* 64.22px */
   background: linear-gradient(180deg, #fff 0%, #ffeec5 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -74,22 +74,201 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.usm-plan-left-button {
+  color: #0e100a;
+  font-family: "DM Sans";
+  font-size: 21.538px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+.usm-plan-left-buttonmain {
+  margin-top: 47px;
+}
+.usm-plan-left-plandiv {
+  display: inline-flex;
+  padding: 21px 36.864px 21.932px 37px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9.205px;
+  border: 1.151px solid rgba(255, 255, 255, 0.11);
+  background: #191a19;
+  margin: 10px 0 39px;
+  gap: 27px;
+}
+.usm-plp-period {
+  color: rgba(255, 255, 255, 0.47);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18.411px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27.616px */
+}
+.usm-plp-period.selected {
+  color: #74a528;
+}
+.usm-plan-left-power {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 42.136px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 74%; /* 31.18px */
+  position: relative;
+  top: -10px;
+  left: -4px;
+}
+.usm-plan-left-price {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 81.793px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74%; /* 60.527px */
+}
+.usm-plan-left-disdiv {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  gap: 12px;
+}
+.usm-plan-left-discount {
+  color: rgba(255, 255, 255, 0.64);
+  font-family: Poppins;
+  font-size: 29.595px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74%; /* 21.901px */
+  text-decoration-line: line-through;
+}
+.usm-plan-left-discountpercentage {
+  color: #ffcf33;
+  font-family: Poppins;
+  font-size: 29.595px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74%;
+}
+.usm-plan-heading {
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px; /* 132.143% */
+  background: linear-gradient(180deg, #fff 0%, #ffeec5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 16px;
+  display: none;
+}
+.usm-emoji {
+  -webkit-text-fill-color: initial; /* Keeps the original emoji color */
+  background: none;
+}
+@media (width<1280px) {
+  .usm-plan {
+    padding: 42px 64px 65px;
+  }
+  .usm-plan-right {
+    width: 100%;
+  }
+  .usm-plan-inner {
+    gap: 30px;
+    padding: 36px;
+  }
+  .usm-plan-left {
+    padding: 18px 15px 33px;
+  }
+}
 @media (width<1024px) {
   .usm-plan-right-top {
     font-size: 32px;
+  }
+  .usm-plan {
+    padding: 35px 64px 50px;
+  }
+  .usm-plan-left-head {
+    font-size: 22px;
+  }
+  .usm-plan-left-price {
+    font-size: 60px;
+  }
+  .usm-plan-left-power {
+    font-size: 33px;
+    left: -4px;
+    top: -4px;
+  }
+  .usm-plan-left-discount {
+    font-size: 24px;
+  }
+  .usm-plan-left-discountpercentage {
+    font-size: 24px;
+  }
+  .usm-plan-left-plandiv {
+    padding: 18px 26px;
+    margin: 20px 0 30px;
+  }
+  .usm-plp-period {
+    font-size: 17px;
+  }
+  .usm-plan-left-disdiv {
+    padding-top: 16px;
+  }
+  .usm-plan-left-buttonmain {
+    margin-top: 27px;
+    padding: 14px 20px;
+  }
+  .usm-plan-left-button {
+    font-size: 18px;
+  }
+}
+@media (width<840px) {
+  .usm-plan-inner {
+    flex-direction: column;
+  }
+  .usm-plan-left-plandiv {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .usm-plan-left-buttonmain {
+    width: 100%;
   }
 }
 @media (width<780px) {
   .usm-plan-right-top {
     font-size: 26px;
   }
+  .usm-plan {
+    padding: 35px 32px 40px;
+  }
   .usm-plan-right-bottom-para {
     font-size: 18px;
+  }
+  .usm-plan-left-button {
+    font-size: 18px;
+  }
+  .usm-plan-left-buttonmain {
+    margin-top: 38px;
+  }
+  .usm-plan-right-bottom-para {
+    gap: 13.049px;
+  }
+  .usm-plan-right-bottom-para > img {
+    width: 21.749px;
+    height: 21.749px;
+  }
+  .usm-plan-heading {
+    display: block;
   }
 }
 @media (width<580px) {
   .usm-plan-right-top {
     font-size: 21px;
+  }
+  .usm-plan {
+    padding: 35px 20px 40px;
   }
   .usm-plan-right-bottom-para {
     font-family: Poppins;
@@ -97,5 +276,71 @@
     font-weight: 500;
     line-height: 127.305%; /* 22.15px */
     letter-spacing: -0.522px;
+  }
+  .usm-plan-left-button {
+    font-size: 16px;
+  }
+  .usm-plan-left-buttonmain {
+    margin-top: 28px;
+  }
+  .usm-plan-left-head {
+    font-size: 18px;
+  }
+  .usm-plan-left-price {
+    font-size: 40px;
+  }
+  .usm-plan-left-power {
+    font-size: 24px;
+    left: -4px;
+    top: -4px;
+  }
+  .usm-plan-left-discount {
+    font-size: 18px;
+  }
+  .usm-plan-left-discountpercentage {
+    font-size: 18px;
+  }
+  .usm-plan-left-plandiv {
+    padding: 15px 15px;
+  }
+  .usm-plp-period {
+    font-size: 16px;
+  }
+  .usm-plan-left-button {
+    font-size: 16px;
+  }
+  .usm-plan-inner {
+    padding: 20px;
+  }
+  .usm-plan-left-plandiv {
+    gap: 15px;
+    width: fit-content;
+  }
+  .usm-plan-left-plandiv > svg {
+    width: 54px;
+    height: 27px;
+    flex-shrink: 0;
+  }
+  .usm-plan-left-power {
+    left: -2px;
+    top: -2px;
+  }
+  .usm-plan-inner {
+    gap: 24px;
+    border-radius: 26.098px;
+    background: #131313;
+  }
+  .usm-plan-right {
+    gap: 13px;
+  }
+  .usm-plan-left {
+    border-radius: 14.137px;
+    background: #191a19;
+    padding: 13px 8px 19px;
+  }
+}
+@media (width<380px) {
+  .usm-plan-inner {
+    padding: 15px 10px;
   }
 }

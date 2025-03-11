@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import { YellowButton } from "./components/Button";
 import GroupStudy from "./components/GroupStudy";
@@ -6,6 +7,23 @@ import MentorConnect from "./components/MentorConnect";
 import Plan from "./components/Plan";
 import TaskBased from "./components/TaskBased";
 function App() {
+  const plan = [
+    {
+      price: "199",
+      discount: "5999",
+      disper: "60%",
+      time: "1 Month",
+      head: "Monthly Payment Plan",
+    },
+    {
+      price: "999",
+      discount: "5999",
+      disper: "60%",
+      time: "12 Months",
+      head: "Yearly Payment Plan",
+    },
+  ];
+  const [selectedPlan, setSelectedPlan] = useState(0);
   return (
     <>
       <div className="usm">
@@ -55,7 +73,11 @@ function App() {
         <TaskBased />
         <MentorConnect />
         <GroupStudy />
-        {/* <Plan /> */}
+        <Plan
+          plan={plan}
+          selectedPlan={selectedPlan}
+          setSelectedPlan={setSelectedPlan}
+        />
         <div className="usm-bottom"></div>
       </div>
     </>
