@@ -1,5 +1,5 @@
 import "../styles/Hero.css";
-import dash from "../assets//dash.svg";
+import dash from "../assets//dash.webp";
 import play from "../assets/play.svg";
 import nodejs from "../assets/nodejs.svg";
 import java from "../assets/java.svg";
@@ -66,8 +66,8 @@ function Hero() {
                 <path
                   d="M0.875 0.855469C0.875 19.4088 15.9155 34.4493 34.4688 34.4493H135.25"
                   stroke="#4C4C4C"
-                  stroke-width="1.29207"
-                  stroke-linecap="round"
+                  strokeWidth="1.29207"
+                  strokeLinecap="round"
                 />
               </svg>
               <div className="usm-hr-top-button-play">
@@ -89,25 +89,25 @@ function Hero() {
             <span> Start learning at ₹199</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="135"
-              height="35"
-              viewBox="0 0 135 35"
-              fill="none"
               className="usm-button-halfborder"
+              width="110"
+              height="30"
+              viewBox="0 0 110 30"
+              fill="none"
             >
               <path
-                d="M1.24219 0.894531C1.24219 19.1351 16.0291 33.9221 34.2697 33.9221H133.352"
-                stroke="url(#paint0_linear_2177_737)"
-                strokeWidth="1.5"
+                d="M0.84375 1.4668C0.84375 16.3701 12.9253 28.4516 27.8286 28.4516H108.783"
+                stroke="url(#paint0_linear_2177_88)"
+                strokeWidth="1.55682"
                 strokeLinecap="round"
               />
               <defs>
                 <linearGradient
-                  id="paint0_linear_2177_737"
-                  x1="67.2972"
-                  y1="0.894531"
-                  x2="67.2972"
-                  y2="33.9221"
+                  id="paint0_linear_2177_88"
+                  x1="54.8134"
+                  y1="1.4668"
+                  x2="54.8134"
+                  y2="28.4516"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stopColor="#EDD86B" />
