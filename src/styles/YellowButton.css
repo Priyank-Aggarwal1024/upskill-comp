@@ -1,0 +1,33 @@
+.usm-yellowbutton {
+  display: flex;
+  /* width: 407px; */
+  width: fit-content;
+  padding: 17.5px 33.923px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.462px;
+  border-radius: 55.192px;
+  background: linear-gradient(180deg, #edd86b 0%, #ebce31 100%);
+  position: relative;
+  cursor: pointer;
+}
+.usm-yellowbutton-stroke {
+  position: absolute;
+  bottom: -6.52px;
+  left: -5.77px;
+}
+@media (width<580px) {
+  .usm-yellowbutton {
+    padding: 15px 22px;
+  }
+}
+@media (width<380px) {
+  .usm-yellowbutton {
+    padding: 14px 12px;
+  }
+  .usm-yellowbutton-stroke {
+    position: absolute;
+    bottom: -5.52px;
+    left: -5.77px;
+  }
+}

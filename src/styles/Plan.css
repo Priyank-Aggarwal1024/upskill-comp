@@ -1,0 +1,101 @@
+.usm-plan {
+  padding: 42px 120px 65px;
+  width: 100%;
+}
+.usm-plan-inner {
+  display: inline-flex;
+  width: 100%;
+  border-radius: 24px;
+  background: #161616;
+  /* height: 565px; */
+  padding: 57.143px 63px 56.857px 62px;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  flex-shrink: 0;
+}
+.usm-plan-left {
+  width: 100%;
+  border-radius: 26px;
+  background: #222;
+  height: 100%;
+  padding: 18px 29px 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.usm-plan-right {
+  width: 120%;
+  display: flex;
+  /* width: 545px; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+.usm-plan-right-top {
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 169%; /* 64.22px */
+  background: linear-gradient(180deg, #fff 0%, #ffeec5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.usm-plan-right-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.usm-plan-right-bottom-para {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.305%; /* 25.461px */
+  letter-spacing: -0.6px;
+  text-transform: capitalize;
+}
+.usm-plan-left-head {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 26.383px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 39.574px */
+  background: linear-gradient(212deg, #ffefca 19.05%, #fffcf5 84.52%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (width<1024px) {
+  .usm-plan-right-top {
+    font-size: 32px;
+  }
+}
+@media (width<780px) {
+  .usm-plan-right-top {
+    font-size: 26px;
+  }
+  .usm-plan-right-bottom-para {
+    font-size: 18px;
+  }
+}
+@media (width<580px) {
+  .usm-plan-right-top {
+    font-size: 21px;
+  }
+  .usm-plan-right-bottom-para {
+    font-family: Poppins;
+    font-size: 17.399px;
+    font-weight: 500;
+    line-height: 127.305%; /* 22.15px */
+    letter-spacing: -0.522px;
+  }
+}
