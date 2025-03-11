@@ -58,6 +58,9 @@
   width: 100%;
   border-radius: 22.581px;
   border: 6.22px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .usm-section-image > iframe {
   max-width: 500px;
